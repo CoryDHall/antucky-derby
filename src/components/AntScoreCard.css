@@ -16,7 +16,7 @@
   flex: 0 0 120px;
 }
 .AntScoreCard_Stat {
-  margin: 8px 4px;
+  margin: 0px 4px;
   display: flex;
 }
 
@@ -24,7 +24,7 @@
   margin-left: auto;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 526px) {
   .AntScoreCard {
     flex-wrap: wrap;
   }
