@@ -1,0 +1,38 @@
+.RaceResult {
+  display: flex;
+  font-family: monospace;
+  font-size: 11px;
+  margin: 0;
+  align-items: center;
+  flex-flow: row wrap;
+}
+.RaceResultList {
+  display: flex;
+  padding: 8px 0;
+  margin: 0 0 0 auto;
+  flex-flow: row wrap;
+  list-style-type: none;
+  border-bottom: 1px dashed #333;
+}
+
+.RaceResultList_Item {
+  font-size: 90%;
+  margin-right: auto;
+  margin-left: 8px;
+  transition: color 3s;
+}
+
+.RaceResultList_Item:first-child {
+  font-weight: bolder;
+  color: green;
+}
+.RaceResult:nth-child(2n) {
+  background: linear-gradient(90deg, #bbb, #fff);
+}
+.RaceResult:nth-child(2n + 1) {
+  background: linear-gradient(90deg, #fff, #bbb);
+}
+.RaceResults {
+  border: 1px solid #333;
+  margin: 0 12px 12px;
+}

@@ -1,0 +1,18 @@
+.RaceTrigger {
+  appearance: none;
+  border: 0;
+  outline: 0;
+  padding: 16px 24px;
+  margin: 0 0 24px;
+  background: #333;
+  color: #f8f8f8;
+  font-weight: 500;
+  font-size: 16px;
+  text-transform: uppercase;
+  transition: background .2s;
+}
+
+.RaceTrigger:hover {
+  cursor: pointer;
+  background: #000;
+}

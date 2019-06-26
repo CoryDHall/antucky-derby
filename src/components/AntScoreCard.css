@@ -1,0 +1,35 @@
+.AntScoreCard {
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: left;
+  border: 1px solid black;
+  border-left-width: 4px;
+  align-items: center;
+  padding: 6px 10px;
+  margin: 6px;
+}
+.AntScoreCard_Name {
+  margin: 0 auto auto 0;
+}
+.AntScoreCard_Stats {
+  font-family: monospace;
+  flex: 0 0 120px;
+}
+.AntScoreCard_Stat {
+  margin: 8px 4px;
+  display: flex;
+}
+
+.AntScoreCard_StatValue {
+  margin-left: auto;
+}
+
+@media (max-width: 414px) {
+  .AntScoreCard {
+    flex-wrap: wrap;
+  }
+
+  .AntScoreCard_Name {
+    flex: 1 0 100%;
+  }
+}
